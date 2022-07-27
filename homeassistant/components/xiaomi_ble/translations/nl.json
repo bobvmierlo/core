@@ -1,0 +1,36 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Apparaat is al geconfigureerd",
+            "already_in_progress": "Configuratie is al bezig",
+            "decryption_failed": "De ingevoerde bindkey werkte niet, sensorgegevens konden niet worden ontsleuteld. Controleer het de bindkey en probeer het opnieuw.",
+            "expected_24_characters": "Er werd een hexadecimale bindkey van 24 tekens verwacht.",
+            "expected_32_characters": "Er werd een hexadecimale bindkey van 24 tekens verwacht.",
+            "no_devices_found": "Geen apparaten gevonden op het netwerk"
+        },
+        "flow_title": "{name}",
+        "step": {
+            "bluetooth_confirm": {
+                "description": "Wil je {name} instellen?"
+            },
+            "get_encryption_key_4_5": {
+                "data": {
+                    "bindkey": "Bindkey"
+                },
+                "description": "De sensorgegevens die door de sensor worden uitgezonden zijn versleuteld. Om deze te decoderen hebben we een hexadecimale bindsleutel van 32 tekens nodig."
+            },
+            "get_encryption_key_legacy": {
+                "data": {
+                    "bindkey": "Bindkey"
+                },
+                "description": "De sensorgegevens die door de sensor worden uitgezonden zijn versleuteld. Om deze te decoderen hebben we een hexadecimale bindsleutel van 24 tekens nodig."
+            },
+            "user": {
+                "data": {
+                    "address": "Apparaat"
+                },
+                "description": "Kies een apparaat om in te stellen"
+            }
+        }
+    }
+}
